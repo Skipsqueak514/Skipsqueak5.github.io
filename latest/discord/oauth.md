@@ -30,7 +30,7 @@ You can do this by clicking the 'Add Redirect' button and adding these two URLs.
 
 Finally, head over to PortalNodes's 'User Registration' settings page and fill in your Client ID and Secret
 for Discord. Make sure to enable the registration module, otherwise users will not be able to authenticate!
-![Enable PortalNodes image](../../public/images/discord_PortalNodes.png)
+![Enable PortalNodes image](https://media.discordapp.net/attachments/852878452569800734/1083779973543899317/discord_PortalNodes.png.png?width=959&height=215)
 
 ### Test your Application
 
