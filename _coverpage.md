@@ -1,4 +1,4 @@
-<span>PortalNodes <small>3.x</small></span>
+<h1>PortalNodes<small>3.x</small> </h1>
 
 > The documentation for PortalNodes.
 
