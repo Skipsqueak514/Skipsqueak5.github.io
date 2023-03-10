@@ -1,7 +1,7 @@
-# Welcome to Jexactyl!
+# Welcome to PortalNodes!
 
-Jexactyl is a modern, fast and feature-rich fork of [Pterodactyl Panel](https://github.com/pterodactyl/panel).
-Jexactyl aims to improve already-existing features of this software as well as integrate many more functions
+PortalNodes is a modern, fast and feature-rich fork of [Pterodactyl Panel](https://github.com/pterodactyl/panel).
+PortalNodes aims to improve already-existing features of this software as well as integrate many more functions
 to make this software easier more advanced while also being nicer to use.
 
 ![Dashboard](https://cdn.discordapp.com/attachments/927394141158133760/1034607072316231740/unknown.png)
@@ -14,9 +14,9 @@ to make this software easier more advanced while also being nicer to use.
 - Server Renewal system
 
 ## Ready to get started?
-If you're a new user, you should check out our [Installation Guides](https://docs.jexactyl.com/#/latest/panel/install/dependencies).
+If you're a new user, you should check out our [Installation Guides](https://docs.PortalNodes.com/#/latest/panel/install/dependencies).
 
-If you're a more experienced user who wants to edit the Panel, check out our [Modification Guides](https://docs.jexactyl.com/#/latest/build/install).
+If you're a more experienced user who wants to edit the Panel, check out our [Modification Guides](https://docs.PortalNodes.com/#/latest/build/install).
 
 ## Screenshots
 ![Dashboard](https://cdn.discordapp.com/attachments/927394141158133760/1034607072316231740/unknown.png)

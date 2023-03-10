@@ -1,8 +1,8 @@
-# Migrate from Jexactyl v2.x
+# Migrate from PortalNodes v2.x
 
 ***
 
-Using this guide, you'll be able to upgrade to Jexactyl v3.x from v2.x.
+Using this guide, you'll be able to upgrade to PortalNodes v3.x from v2.x.
 
 ***
 
@@ -14,17 +14,17 @@ You can do this by running the following commands:
 
 ```bash
 # Backs up the file structure and .env key.
-cp -R /var/www/jexactyl /var/www/jexactyl-backup
+cp -R /var/www/PortalNodes /var/www/PortalNodes-backup
 
 # Dump the MySQL database and save it in the backup dir.
-mysqldump -u root -p panel > /var/www/jexactyl-backup/panel.sql
+mysqldump -u root -p panel > /var/www/PortalNodes-backup/panel.sql
 ```
 
 ***
 
 ### Mark Panel as unavailable
 
-?> Make sure you're in the `/var/www/jexactyl` directory before continuing.
+?> Make sure you're in the `/var/www/PortalNodes` directory before continuing.
 
 While the migration takes place, we'll put the Panel into an 'unavailable' state so users cannot
 access the UI or API. We can do this by running the following:
@@ -35,14 +35,14 @@ php artisan down
 
 ***
 
-### Download Jexactyl
+### Download PortalNodes
 
-After your backup is complete and the Panel is offline, we'll download the Jexactyl files
+After your backup is complete and the Panel is offline, we'll download the PortalNodes files
 and overwrite the existing ones.
 
 ```bash
-# Download the latest Jexactyl release using CURL.
-curl -L -o panel.tar.gz https://github.com/jexactyl/jexactyl/releases/latest/download/panel.tar.gz
+# Download the latest PortalNodes release using CURL.
+curl -L -o panel.tar.gz https://github.com/PortalNodes/PortalNodes/releases/latest/download/panel.tar.gz
 
 # Download the updated files and delete the archive file.
 tar -xzvf panel.tar.gz && rm -f panel.tar.gz
@@ -82,7 +82,7 @@ php artisan optimize:clear
 
 ### Update database migrations
 
-Jexactyl includes new features and functions that require you to migrate to your database.
+PortalNodes includes new features and functions that require you to migrate to your database.
 Luckily, this is a simple process which only involves running one command:
 
 ```bash
@@ -98,13 +98,13 @@ new files. You can do so by running the command specific to your webserver:
 
 ```bash
 # If using NGINX or Apache (not on CentOS):
-chown -R www-data:www-data /var/www/jexactyl/*
+chown -R www-data:www-data /var/www/PortalNodes/*
 
 # If using NGINX on CentOS:
-chown -R nginx:nginx /var/www/jexactyl/*
+chown -R nginx:nginx /var/www/PortalNodes/*
 
 # If using Apache on CentOS
-chown -R apache:apache /var/www/jexactyl/*
+chown -R apache:apache /var/www/PortalNodes/*
 ```
 
 ### Restart Queue Workers
@@ -126,5 +126,5 @@ php artisan up
 ```
 
 ?>
-Congrats! You have migrated to Jexactyl and everything should be functioning normally.
+Congrats! You have migrated to PortalNodes and everything should be functioning normally.
 If you encounter any issues, please let us know on our [Discord](https://discord.com/invite/qttGR4Z5Pk).

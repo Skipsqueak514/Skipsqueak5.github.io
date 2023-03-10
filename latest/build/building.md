@@ -4,10 +4,10 @@
 
 ### Running build command
 
-Run the commands below in order to rebuild Jexactyl's frontend.
+Run the commands below in order to rebuild PortalNodes's frontend.
 
 ```bash
-cd /var/www/jexactyl
+cd /var/www/PortalNodes
 
 # If building in a development environment:
 yarn watch

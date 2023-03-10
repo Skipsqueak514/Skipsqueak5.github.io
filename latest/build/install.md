@@ -2,7 +2,7 @@
 
 ***
 
-This guide will inform you on how to get started with building and modifying Jexactyl.
+This guide will inform you on how to get started with building and modifying PortalNodes.
 
 ***
 
@@ -15,11 +15,11 @@ curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash -
 apt install -y nodejs
 ```
 
-Install `Yarn` and the dependencies needed for Jexactyl to be built.
+Install `Yarn` and the dependencies needed for PortalNodes to be built.
 
 ```bash
 npm i -g yarn
-cd /var/www/jexactyl
+cd /var/www/PortalNodes
 yarn # Installs building dependencies.
 ```
 

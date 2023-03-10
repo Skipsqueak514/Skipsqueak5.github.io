@@ -2,7 +2,7 @@
 
 ***
 
-This guide will show you how to easily get started with using PayPal with Jexactyl
+This guide will show you how to easily get started with using PayPal with PortalNodes
 in order to process credit purchases.
 
 !> This system was implemented in `v3.1.0`. Please make sure you're running this version
@@ -13,7 +13,7 @@ or newer in order to use the PayPal system.
 ### Obtain Client ID and Client Secret
 
 You'll need to firstly create a new 'App' with PayPal in order to get a Client ID and secret
-for use with Jexactyl.
+for use with PortalNodes.
 
 ***
 
@@ -34,11 +34,11 @@ for use with Jexactyl.
 
 ***
 
-### 5. Add Client ID and Secret to Jexactyl
-Next, you'll need to place these keys in your `.env` file in order to allow Jexactyl to login.
+### 5. Add Client ID and Secret to PortalNodes
+Next, you'll need to place these keys in your `.env` file in order to allow PortalNodes to login.
 
 ```bash
-cd /var/www/jexactyl
+cd /var/www/PortalNodes
 nano .env
 
 # Fill in the fields PAYPAL_CLIENT_ID and PAYPAL_CLIENT_SECRET
@@ -52,7 +52,7 @@ nano .env
 
 ### 7. Test your configuration
 
-Head over to the Jexactyl Storefront and click the 'Balance' tab. Once you're there, attempt to buy `x` credits with PayPal.
+Head over to the PortalNodes Storefront and click the 'Balance' tab. Once you're there, attempt to buy `x` credits with PayPal.
 If the page redirects to a PayPal purchase portal, congrats! You've successfully set up and configured PayPal.
 
-?> If you run into issues while getting started with PayPal, let us know in the [Jexactyl Discord](https://discord.com/invite/qttGR4Z5Pk)
+?> If you run into issues while getting started with PayPal, let us know in the [PortalNodes Discord](https://discord.com/invite/qttGR4Z5Pk)

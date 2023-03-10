@@ -1,6 +1,6 @@
-# PortalNodes <small>3.x</small>
+ PortalNodes <small>3.x</small>
 
-> The documentation for Jexactyl.
+> The documentation for PortalNodes.
 
 [Get Started](/README.md)
 [Discord](https://discord.com/invite/qttGR4Z5Pk)
