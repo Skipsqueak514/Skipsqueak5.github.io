@@ -3,4 +3,4 @@
 > The documentation for PortalNodes.
 
 [Get Started](/README.md)
-[Discord](https://discord.com/invite/qttGR4Z5Pk)
+[Discord](https://discord.gg/wQZfeVrT2D)

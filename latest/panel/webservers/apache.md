@@ -63,4 +63,4 @@ systemctl restart apache2
 
 ?>
 Congrats! PortalNodes is installed and should be functioning normally.
-If you encounter any issues, please let us know on our [Discord](https://discord.com/invite/qttGR4Z5Pk).
+If you encounter any issues, please let us know on our [Discord](https://discord.gg/wQZfeVrT2D).

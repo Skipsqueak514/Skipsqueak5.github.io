@@ -55,4 +55,4 @@ nano .env
 Head over to the PortalNodes Storefront and click the 'Balance' tab. Once you're there, attempt to buy `x` credits with PayPal.
 If the page redirects to a PayPal purchase portal, congrats! You've successfully set up and configured PayPal.
 
-?> If you run into issues while getting started with PayPal, let us know in the [PortalNodes Discord](https://discord.com/invite/qttGR4Z5Pk)
+?> If you run into issues while getting started with PayPal, let us know in the [PortalNodes Discord](https://discord.gg/wQZfeVrT2D)

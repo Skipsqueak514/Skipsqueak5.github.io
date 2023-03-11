@@ -127,4 +127,4 @@ php artisan up
 
 ?>
 Congrats! You have migrated to PortalNodes and everything should be functioning normally.
-If you encounter any issues, please let us know on our [Discord](https://discord.com/invite/qttGR4Z5Pk).
+If you encounter any issues, please let us know on our [Discord](https://discord.gg/wQZfeVrT2D).
